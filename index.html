@@ -85,7 +85,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				position: absolute;
 				clip: rect(1px, 1px, 1px, 1px);
 				}
+
+				.main-color-text{
+					color: #d98787;
+				}
 					</style>
+				
 		<link rel="icon" href="https://ls-weddings.laravel.cloud/template09/images/cropped-logo-favicon-32x32.png" sizes="32x32">
 <link rel="icon" href="https://ls-weddings.laravel.cloud/template09/images/cropped-logo-favicon-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://ls-weddings.laravel.cloud/template09/images/cropped-logo-favicon-180x180.png">
@@ -107,38 +112,38 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 </div>
 <!-- END PRELOAD --> <!-- BANNER -->
- <section class="banner img_bg " id="banner">
+ <section class="banner img_bg main-color-text" id="banner">
     <img src="images/VuhNo8ryl71seCUHtB9Wx4CDifeR0baXwLsnJ8Nb.jpg" alt="" class="banner-bg banner_top" style="object-position:center center">
     <div style="margin-left: 40px;
     margin-right: 40px;" class="data" data-aos="fade-up" data-aos-duration="3000">
-      <h1 class="banner-title">
+      <h1 class="banner-title main-color-text">
             </h1>
       
-            <div class="name">
+            <div class="name main-color-text">
       Văn Toàn<br>
        &<br>
 Nhật Anh      </div>
             <div class="time">
-        <span class="banner_time">Vào Lúc 13:00</span>
+        <span class="banner_time main-color-text">Vào Lúc 13:00</span>
         <br>
-        <span class="banner_date">29.10.2025</span>
+        <span class="banner_date main-color-text">29.10.2025</span>
        
       </div>
       <div class="banner-location">
-        <p class="main_font">Lễ Thành Hôn</p>
-        <p class="location-name" style="font-weight:bold;">Tư Gia Nhà Trai</p>
-        <address>TDP Vân Đồn-Phường Hồng Quang-Tỉnh Ninh Bình.</address>
+        <p class="main_font main-color-text">Lễ Thành Hôn</p>
+        <p class="location-name main-color-text" style="font-weight:bold;">Tư Gia Nhà Trai</p>
+        <address class="main-color-text">TDP Vân Đồn-Phường Hồng Quang-Tỉnh Ninh Bình.</address>
       </div>
 
       <div class="group-button">
         <a href="https://maps.app.goo.gl/f8oU1AigSDKGQjkn7" target="_blank" class="btn btn-pri">
           <i class="ri-map-fill"></i>
-          <span>Bản đồ</span>
+          <span class="main-color-text">Bản đồ</span>
         </a>
 
         <a href="tel:(+84)0866063912" target="_blank" class="btn btn-pri">
           <i class="ri-phone-fill"></i>
-          <span>Số Điện Thoại</span>
+          <span class="main-color-text">Số Điện Thoại</span>
         </a>
       </div>
     </div>
@@ -633,7 +638,7 @@ Nhật Anh      </div>
                         lời chúc</button>
                 </form>
                 <p style="margin-top:10px;" id="status"></p>
-                <a href="https://docs.google.com/spreadsheets/d/1ufMoF-gAhmKRzRCZTDKLb6ZV-0xsw2tP73CgdP5epdY/edit?usp=sharing" style="color:white">Xem lời chúc</a>
+                <a href="https://docs.google.com/spreadsheets/d/1Ceqz8tPlox4oO54Aw-ykXPpCkl_fMaX5cNzMmv7sMzw/edit?usp=sharing" style="color:white">Xem lời chúc</a>
             </div>
 
             <script>
@@ -643,12 +648,12 @@ Nhật Anh      </div>
                     let message = document.getElementById("messages").value;
                     let accept = document.getElementById("accept").value;         
                     // Thay thế bằng URL Google Form của bạn
-                    let googleFormURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScDhM4gsrY8oLog_AOpTacBJc0ix2JnM8oCxCSmCgZnNhdnTg/formResponse";
+                    let googleFormURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfF5Vy0aXGsP_s7ON50RQMPuabe6_oXKeZ3TMpIMO7352CaQg/formResponse";
                     // Các entry ID (tìm trong Google Form)
                     let formData = new FormData();
-                    formData.append("entry.996461529", name); 
-                    formData.append("entry.731795243", message); 
-                    formData.append("entry.1203677139", accept);
+                    formData.append("entry.2007344956", name); 
+                    formData.append("entry.287036248", message); 
+                    formData.append("entry.1330480007", accept);
         
                     fetch(googleFormURL, {
                         method: "POST",
